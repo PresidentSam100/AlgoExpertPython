@@ -1,6 +1,6 @@
 # Two Number Sum (Python)
 # https://www.algoexpert.io/questions/two-number-sum
-# Time Complexity: O(nlogn) n is length of array
+# Time Complexity: O(n * log(n)) n is length of array
 # Space Complexity: O(1)
 def twoNumberSum(array, targetSum):
     array.sort()
