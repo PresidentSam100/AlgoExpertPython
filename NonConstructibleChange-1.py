@@ -1,6 +1,6 @@
 # Non-Constructible Change (Python)
 # https://www.algoexpert.io/questions/non-constructible-change
-# Time Complexity: O(nlogn) n is number of coins
+# Time Complexity: O(n * log(n)) n is number of coins
 # Space Complexity: O(1)
 def nonConstructibleChange(coins):
     coins.sort()
