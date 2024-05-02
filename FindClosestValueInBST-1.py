@@ -3,7 +3,7 @@
 # Average Time Complexity: O(log(n))
 # Worst Time Complexity: O(n)
 # Average Space Complexity: O(log(n))
-# WOrst Space Complexity: O(n)
+# Worst Space Complexity: O(n)
 
 def findClosestValueInBst(tree, target):
     return findClosestValueInBstHelper(tree, target, tree.value)
