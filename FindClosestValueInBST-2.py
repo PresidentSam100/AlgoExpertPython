@@ -1,6 +1,6 @@
 # Find Closest Value in BST (Python)
 # https://www.algoexpert.io/questions/find-closest-value-in-bst
-# Average Time Complexity: O(log(n))
+# Average Time Complexity: O(log(n)) n is the number of nodes in BST
 # Worst Time Complexity: O(n)
 # Average Space Complexity: O(1)
 # Worst Space Complexity: O(1)
