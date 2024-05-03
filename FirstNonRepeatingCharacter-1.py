@@ -1,6 +1,6 @@
 # First Non-Repeating Character (Python)
 # https://www.algoexpert.io/questions/first-non-repeating-character
-# Time Complexity: O(n) n is the length of string
+# Time Complexity: O(n^2) n is the length of string
 # Space Complexity: O(1)
 
 def firstNonRepeatingCharacter(string):
