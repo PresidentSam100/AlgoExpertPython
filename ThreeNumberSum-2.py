@@ -1,6 +1,6 @@
 # Three Number Sum (Python)
 # https://www.algoexpert.io/questions/three-number-sum
-# Time Complexity: O(n^3) n is the length of array
+# Time Complexity: O(n^2) n is the length of array
 # Space Complexity: O(n)
 
 def threeNumberSum(array, targetSum):
