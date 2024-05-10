@@ -5,12 +5,8 @@
 
 def moveElementToEnd(array, toMove):
     left = 0
-    right = len(array) - 1
-    while left < right:
-        if array[left] == toMove and array[right] != toMove:
-            array[left], array[right] = array[right], array[left]
-        if array[left] != toMove:
+    for index in range(len(array)):
+        if array[index] != toMove:
+            array[index], array[left] = array[left], array[index]
             left += 1
-        if array[right] == toMove:
-            right -= 1
     return array
