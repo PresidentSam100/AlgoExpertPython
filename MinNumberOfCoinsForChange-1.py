@@ -6,8 +6,10 @@
 def minNumberOfCoinsForChange(n, denoms):
     coinCounts = [float("inf")] * (n + 1)
     coinCounts[0] = 0
-    for index in range(len(coinCounts)):
-        for denom in denoms:
+    
+    for denom in denoms:
+        for index in range(len(coinCounts)):
             if index - denom >= 0:
                 coinCounts[index] = min(coinCounts[index], coinCounts[index - denom] + 1)
+    
     return coinCounts[n] if coinCounts[n] != float("inf") else -1
