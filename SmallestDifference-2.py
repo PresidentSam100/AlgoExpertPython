@@ -12,8 +12,7 @@ def smallestDifference(arrayOne, arrayTwo):
     while left < len(arrayOne) and right < len(arrayTwo):
         diff = arrayOne[left] - arrayTwo[right]
         if abs(diff) < abs(pair[1] - pair[0]):
-            pair[0] = arrayOne[left]
-            pair[1] = arrayTwo[right]
+            pair = [arrayOne[left], arrayTwo[right]]
         if diff < 0:
             left += 1
         elif diff > 0:
