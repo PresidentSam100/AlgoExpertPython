@@ -1,6 +1,6 @@
 # Missing Numbers (Python)
 # https://www.algoexpert.io/questions/missingNumbers
-# Time Complexity: O(n) n is number of nums
+# Time Complexity: O(n) n is length of nums array
 # Space Complexity: O(n)
 
 def missingNumbers(nums):
